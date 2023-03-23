@@ -1,0 +1,22 @@
+# Kể EditorConfig Plug -in, đây là một tệp, không cần phải tiếp tục tìm kiếm
+root = true
+
+# Khớp với tất cả các tập tin
+[*]
+# Đặt bộ ký tự
+charset = utf-8
+# Phong cách tuyệt chủng, chọn Space、tab
+indent_style = space
+# Không gian thụt lề
+indent_size = 2
+# Kết thúc -tats thay đổi ký hiệu, lf tùy chọn,cr、crlf
+end_of_line = lf
+# Chèn một dòng mới ở cuối tệp
+insert_final_newline = true
+# Xoá Không gian phía trước và phía sau trong dòng
+trim_trailing_whitespace = true
+
+# trận đấu md Kết thúc tập tin
+[*.md]
+insert_final_newline = false
+trim_trailing_whitespace = false
